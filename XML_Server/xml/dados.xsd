@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="categorias">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="categoria" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+						
+							<!-- Para perguntas com opções-->
+							<xs:element name="pergunta" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="questao" maxOccurs="1"  type="xs:string"/>
+										<xs:element name="tempo" type="xs:time" maxOccurs="1"/>
+										<xs:element name="multimedia" type="xs:string"/>
+										<!-- Para as opções de resposta -->
+										<xs:element name="opcao" minOccurs="2" maxOccurs="6">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute name="resposta" use="required">
+															<xs:simpleType>
+															  <xs:restriction base="xs:string">
+																<xs:enumeration value="certo" />
+																<xs:enumeration value="errado" />
+															  </xs:restriction>
+															</xs:simpleType>
+														</xs:attribute>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+										
+									</xs:sequence>
+									<xs:attribute name="id" use="required" type="xs:ID"/>
+								</xs:complexType>
+							</xs:element>
+							
+						</xs:sequence>
+						<xs:attribute name="tema" use="required">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:pattern value="([a-zA-Z])+"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

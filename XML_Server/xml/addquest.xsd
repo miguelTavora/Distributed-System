@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="registaPergunta">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="theme" maxOccurs="1">
+					<xs:simpleType>
+						<xs:restriction base="xs:string"/>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="question" maxOccurs="1">
+					<xs:simpleType>
+						<xs:restriction base="xs:string"/>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="time" type="xs:time" maxOccurs="1"/>
+				<xs:element name="option" type="xs:string" minOccurs="2" maxOccurs="6"/>
+				<xs:element name="correctIndex" type="xs:integer" minOccurs="1" maxOccurs="6"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

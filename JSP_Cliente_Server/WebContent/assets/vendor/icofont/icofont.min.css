@@ -1,0 +1,139 @@
+@font-face {
+    font-family: IcoFont;
+    font-weight: 400;
+    font-style: Regular;
+    src: url(fonts/icofont.woff) format("woff");
+  }
+
+[class*=" icofont-"],
+[class^="icofont-"] {
+  font-family: IcoFont !important;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.icofont-simple-up:before {
+  content: "\eab9";
+}
+
+.icofont-facebook-messenger:before {
+  content: "\ed36";
+}
+.icofont-facebook:before {
+  content: "\ed37";
+}
+
+.icofont-google-map:before {
+  content: "\ed42";
+}
+
+.icofont-instagram:before {
+  content: "\ed46";
+}
+
+.icofont-twitch:before {
+  content: "\ed79";
+}
+.icofont-twitter:before {
+  content: "\ed7a";
+}
+
+.icofont-envelope-open:before {
+  content: "\ef13";
+}
+.icofont-envelope:before {
+  content: "\ef14";
+}
+
+.icofont-phone-circle:before {
+  content: "\efba";
+}
+.icofont-phone:before {
+  content: "\efbb";
+}
+.icofont-navigation-menu:before {
+    content: "\efa2";
+}
+@-webkit-keyframes icofont-spin {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes icofont-spin {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.icofont-rotate-90 {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.icofont-rotate-180 {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.icofont-rotate-270 {
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.icofont-flip-horizontal {
+  -webkit-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.icofont-flip-vertical {
+  -webkit-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+.icofont-flip-horizontal.icofont-flip-vertical {
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+:root .icofont-flip-horizontal,
+:root .icofont-flip-vertical,
+:root .icofont-rotate-180,
+:root .icofont-rotate-270,
+:root .icofont-rotate-90 {
+  -webkit-filter: none;
+  filter: none;
+  display: inline-block;
+}
+.icofont-inverse {
+  color: #fff;
+}
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}

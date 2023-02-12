@@ -1,0 +1,97 @@
+<categorias>
+	<categoria tema="XML">
+		<pergunta id="ID_1">
+			<questao>Nome do XML.</questao>
+			<tempo>00:01:00</tempo>
+			<multimedia/>
+			<opcao resposta="certo">Extensible Markup Language</opcao>
+			<opcao resposta="errado">Extension Markting Localy</opcao>
+			<opcao resposta="errado">Execute Marks Literal</opcao>
+			<opcao resposta="errado">Nenhuma das anteriores</opcao>
+		</pergunta>
+		<pergunta id="ID_2">
+			<questao>Utilização do XML</questao>
+			<tempo>00:00:30</tempo>
+			<multimedia/>
+			<opcao resposta="certo">Comunicar entre processos através de mensagens de texto</opcao>
+			<opcao resposta="errado">Enviar objetos através de um socket</opcao>
+			<opcao resposta="certo">Facilitar a comunicação através de marcas de texto</opcao>
+		</pergunta>
+	</categoria>
+	<categoria tema="TCP">
+		<pergunta id="ID_3">
+			<questao>Caracteristicas do protocolo TCP/IP</questao>
+			<tempo>00:01:10</tempo>
+			<multimedia/>
+			<opcao resposta="certo">Orientado á comunicação</opcao>
+			<opcao resposta="errado">Utiliza Datagramas</opcao>
+			<opcao resposta="certo">É fiável</opcao>
+			<opcao resposta="certo">Repete a mensagem quando esta não chega ao destinatário</opcao>
+		</pergunta>
+		<pergunta id="ID_4">
+			<questao>Camada onde se encontra o protocolo TCP/IP</questao>
+			<tempo>00:01:10</tempo>
+			<multimedia/>
+			<opcao resposta="certo">Camada transporte e rede</opcao>
+			<opcao resposta="errado">Camada aplicação</opcao>
+			<opcao resposta="errado">Camada link</opcao>
+			<opcao resposta="errado">Camada físico</opcao>
+		</pergunta>
+	</categoria>
+	<categoria tema="AJAX">
+		<pergunta id="ID_5">
+			<questao>De que lado corre o AJAX</questao>
+			<tempo>00:00:40</tempo>
+			<multimedia/>
+			<opcao resposta="certo">Lado cliente</opcao>
+			<opcao resposta="errado">Lado servidor</opcao>
+			<opcao resposta="errado">Ambos os lados</opcao>
+		</pergunta>
+		<pergunta id="ID_6">
+			<questao>Funcionalidade do AJAX</questao>
+			<tempo>00:01:00</tempo>
+			<multimedia/>
+			<opcao resposta="errado">Igual ao Javascript com uma sintax mais simples</opcao>
+			<opcao resposta="certo">Melhorar a interação com o utilizador</opcao>
+			<opcao resposta="certo">Fazer pedidos assincronos ao servidor</opcao>
+			<opcao resposta="errado">Correr pequenos troços de código especificados pelo AJAX no servidor</opcao>
+			<opcao resposta="errado">Nenhuma das anteriores</opcao>
+		</pergunta>
+		<pergunta id="ID_7">
+			<questao>Tecnologias utilizadas pelo AJAX</questao>
+			<tempo>00:01:30</tempo>
+			<multimedia/>
+			<opcao resposta="errado">Somente HTML</opcao>
+			<opcao resposta="errado">HTML e Javascript</opcao>
+			<opcao resposta="certo">XML e Javascript</opcao>
+			<opcao resposta="errado">Somente Javascript</opcao>
+			<opcao resposta="errado">Somente HTML</opcao>
+			<opcao resposta="errado">Nenhuma das anteriores</opcao>
+		</pergunta>
+		<pergunta id="ID_8">
+			<questao>Significado de AJAX</questao>
+			<tempo>00:00:30</tempo>
+			<multimedia/>
+			<opcao resposta="certo">Asynchronous Javascript and XML</opcao>
+			<opcao resposta="errado">Asside Javascript for XML</opcao>
+		</pergunta>
+	</categoria>
+	<categoria tema="JAVA">
+        <pergunta id="ID_9">
+            <questao>Em Java tudo e um objeto?</questao>
+            <tempo>00:01:00</tempo>
+            <multimedia />
+            <opcao resposta="certo">Sim</opcao>
+            <opcao resposta="errado">Nao</opcao>
+        </pergunta>
+        <pergunta id="ID_10">
+            <questao>Selecione os tipos primitivos</questao>
+            <tempo>00:01:00</tempo>
+            <multimedia />
+            <opcao resposta="certo">int</opcao>
+            <opcao resposta="errado">Object</opcao>
+            <opcao resposta="errado">String</opcao>
+            <opcao resposta="certo">boolean</opcao>
+        </pergunta>
+    </categoria>
+</categorias>
